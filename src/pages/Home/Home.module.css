@@ -1,0 +1,36 @@
+.homePage {
+  margin: 200px auto;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  width: 700px;
+}
+
+.text {
+  font-family: 'Montserrat';
+
+  font-weight: 700;
+  font-size: 22 px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  color: #373737;
+}
+
+.link {
+  font-family: 'Montserrat';
+
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: #471ca9;
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: underline;
+  color: darkmagenta;
+}

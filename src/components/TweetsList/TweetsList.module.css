@@ -1,0 +1,12 @@
+.list {
+  width: 1236px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+
+  text-align: center;
+}
+
